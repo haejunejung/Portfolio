@@ -3,28 +3,13 @@ import "./App.css";
 import ME from "./me.jpg";
 
 function App() {
-  const isMobile = window.innerWidth <= 768;
-
   return (
     <React.Fragment>
       <section className="card">
-        <div
-          style={
-            isMobile
-              ? { display: "flex", justifyContent: "center" }
-              : { float: "left" }
-          }
-        >
+        <div style={{ float: "left" }}>
           <img className="my-picture__" alt="it's me" src={ME} />
         </div>
-        <div
-          className="explain_container__"
-          style={
-            isMobile
-              ? { width: "90%", height: "auto" }
-              : { width: "600px", height: "500px" }
-          }
-        >
+        <div className="explain_container__">
           <header className="title">
             <div>정해준 (Haejune, Jung)</div>
             <div style={{ color: "#37B9F1" }}>미래의 개발자</div>

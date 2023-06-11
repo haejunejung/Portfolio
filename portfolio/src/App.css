@@ -1,13 +1,25 @@
+@font-face {
+  font-family: "KCCChassam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .card {
   position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   overflow: hidden;
+
   background-color: white;
 }
 
 .title {
+  /* text-align: center; */
   margin-top: 75px;
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -16,7 +28,6 @@
   text-shadow: 0 1px 0 rgba(black, 0.1);
   text-indent: 0.3em;
 }
-
 .explain_container__ {
   border: black 4px solid;
   width: 600px;
@@ -34,27 +45,4 @@
   margin-left: 25px;
   margin-top: 60px;
   margin-right: 25px;
-}
-
-@media (max-width: 768px) {
-  .card {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    background-color: white;
-    width: 90%;
-  }
-
-  .explain_container__ {
-    width: 100%;
-    height: auto;
-  }
-
-  .my-picture__ {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
 }
