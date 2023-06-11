@@ -42,7 +42,7 @@ a {
 
 .card {
   position: relative;
-  width: 42rem;
+  width: 31rem;
   height: 20rem;
   perspective: 150rem;
   margin: 5px;
@@ -94,33 +94,6 @@ a {
   color: var(--primary);
 }
 
-.card-avatar {
-  display: grid;
-  place-items: center;
-}
-
-svg {
-  fill: white;
-  width: 65%;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0.5rem;
-}
-
-.item .value {
-  font-size: 1rem;
-}
-
-.item .label {
-  margin-top: 0.15rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--primary);
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -137,18 +110,4 @@ svg {
   margin-top: 0.15rem;
   font-size: 0.75rem;
   line-height: 1.25rem;
-}
-
-.shell {
-  font-size: 0.8rem;
-}
-
-.command {
-  font-weight: 600;
-  color: #ff1ead;
-}
-
-.keyword {
-  font-weight: 600;
-  color: #00ff00;
 }

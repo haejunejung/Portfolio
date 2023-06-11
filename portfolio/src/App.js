@@ -14,8 +14,8 @@ function App() {
               style={{
                 marginLeft: "1rem",
                 marginRight: "1rem",
-                width: "15rem",
-                height: "15rem",
+                width: "8rem",
+                height: "14rem",
               }}
             />
           </div>
