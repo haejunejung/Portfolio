@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import ME from "./me.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -36,8 +37,12 @@ const Home = () => {
                   Github: https://github.com/haejunejung
                 </div>
                 <div className="value">Blog: https://haejunejung.github.io</div>
-                <div className="value">TIL: 준비중...</div>
-                <div className="value">Portfolio: 준비중...</div>
+                <div className="value">
+                  TIL: <Link to="/TIL">TIL</Link>
+                </div>
+                <div className="value">
+                  Portfolio: <Link to="/Projects">Projects</Link>
+                </div>
               </div>
             </div>
           </div>
