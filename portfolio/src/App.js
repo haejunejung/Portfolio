@@ -13,7 +13,7 @@ function App() {
               src={ME}
               style={{
                 marginLeft: "1rem",
-                marginRight: "1rem",
+                marginRight: "0.5rem",
                 width: "6.5rem",
                 height: "14rem",
               }}
@@ -30,11 +30,9 @@ function App() {
               <div className="value">
                 Github: https://github.com/haejunejung
               </div>
+              <div className="value">Blog: https://haejunejung.github.io</div>
               <div className="value">
                 TIL: https://haejunejung.github.io/TIL
-              </div>
-              <div className="value">
-                Blog: https://github.com/haejunejung.github.io
               </div>
               <div className="value">
                 AboutMe: https://haejunejung.github.io/AboutMe
