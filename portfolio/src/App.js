@@ -13,8 +13,8 @@ function App() {
               src={ME}
               style={{
                 marginLeft: "1rem",
-                marginRight: "0.5rem",
-                width: "6.5rem",
+                marginRight: "1rem",
+                width: "7rem",
                 height: "14rem",
               }}
             />
@@ -31,15 +31,8 @@ function App() {
                 Github: https://github.com/haejunejung
               </div>
               <div className="value">Blog: https://haejunejung.github.io</div>
-              <div className="value">
-                TIL: https://haejunejung.github.io/TIL
-              </div>
-              <div className="value">
-                AboutMe: https://haejunejung.github.io/AboutMe
-              </div>
-              <div className="value">
-                Portfolio: https://haejunejung.github.io/Portfolio
-              </div>
+              <div className="value">TIL: 준비중...</div>
+              <div className="value">Portfolio: 준비중...</div>
             </div>
           </div>
         </div>
