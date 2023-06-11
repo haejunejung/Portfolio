@@ -11,9 +11,7 @@
 }
 
 :root {
-  --background: linear-gradient(45deg, #e91e63, #9c27b0);
   --primary: #ff1ead;
-  --secondary: #1effc3;
 }
 
 body {
@@ -22,7 +20,13 @@ body {
   display: grid;
   place-items: center;
   padding: 1rem;
-  background: var(--background);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(8, 4, 4, 1) 100%
+  );
+
   font-family: "KCCChassam";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +46,7 @@ a {
 
 .card {
   position: relative;
-  width: 31rem;
+  width: 29rem;
   height: 20rem;
   perspective: 150rem;
   margin: 5px;
@@ -86,7 +90,7 @@ a {
 }
 
 .name {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .occupation {
@@ -98,12 +102,6 @@ a {
   display: flex;
   flex-direction: column;
   margin-top: 0.75rem;
-}
-
-.info .label {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--primary);
 }
 
 .info .value {
