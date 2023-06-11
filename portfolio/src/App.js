@@ -12,7 +12,7 @@ function App() {
               alt="it's me"
               src={ME}
               style={{
-                marginLeft: "1rem",
+                marginLeft: "3rem",
                 marginRight: "1rem",
                 width: "7rem",
                 height: "14rem",
