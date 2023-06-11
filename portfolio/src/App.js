@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home/Home";
 import TodayILearned from "./components/TIL/TodayILearned";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Projects from "./components/Projects/projects";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" exact={true} element={<Home />} />
         <Route path="/TIL" element={<TodayILearned />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </React.Fragment>
   );
