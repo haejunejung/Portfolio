@@ -29,7 +29,7 @@ const Home = () => {
               <div id="name" className="name">
                 정해준 (Haejune, Jung)
               </div>
-              <div className="occupation">미래의 개발자</div>
+              <div className="occupation">개발자 꿈나무</div>
               <div className="info">
                 <div className="value">Phone: +82 10-2009-9422</div>
                 <div className="value">E-mail: gowns0408@gmail.com</div>

@@ -45,8 +45,6 @@ a {
 }
 
 .card {
-  /* position: relative; */
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -83,10 +81,12 @@ a {
   display: none;
 }
 
-.card-front:hover,
-.card-back:hover {
-  transform: scale(1.1);
-  box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36), 0 0 0 1px rgba(0, 0, 0, 0.3);
+@media (min-width: 1080px) {
+  .card-front:hover {
+    transform: scale(1.1);
+    box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36),
+      0 0 0 1px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .card-details {
